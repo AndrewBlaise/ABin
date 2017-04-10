@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ABin.h
+Nodo.h
+../include/Nodo.h
+
+../include/Nodo.h
+iostream
+-
+
+/home/blaisese/ABin/src/ABin.cpp
+ABin.h
+/home/blaisese/ABin/src/ABin.h
+
+/home/blaisese/ABin/src/main.cpp
+ABin.h
+/home/blaisese/ABin/src/ABin.h
+

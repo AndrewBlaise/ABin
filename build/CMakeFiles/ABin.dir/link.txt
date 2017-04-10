@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/ABin.dir/src/Nodo.cpp.o CMakeFiles/ABin.dir/src/ABin.cpp.o CMakeFiles/ABin.dir/src/main.cpp.o  -o ABin -rdynamic 
