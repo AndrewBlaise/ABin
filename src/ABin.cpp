@@ -141,31 +141,31 @@ bool ABin::Eliminar(int Ref){
 
 Nodo *ABin::Imprimir(Nodo *aux){
 	if(aux==NULL){
-		std::cout<<"El arbol esta basio"<<std::endl;
+		std::cout<<"El arbol esta vacio"<<std::endl;
 		return NULL;
 	}
 
 	if(aux->HIzq==NULL && aux->HDer==NULL){
-		std::cout<<aux<<std::endl;
+		std::cout<<aux->Dato<<std::endl;
 		return NULL;
 	}
 
 	if(aux->HDer==NULL && aux->HIzq!=NULL){
-		std::cout<<aux<<std::endl;
+		std::cout<<aux->Dato<<std::endl;
 		//std::cout<<aux->HIzq<<std::endl;
 		Nodo *aux1=Imprimir(aux->HIzq);
 	}
 
 	if (aux->HIzq==NULL && aux->HDer!=NULL)
 	{
-		std::cout<<aux<<std::endl;
+		std::cout<<aux->Dato<<std::endl;
 		//std::cout<<aux->HDer<<std::endl;
 		Nodo *aux1=Imprimir(aux->HDer);
 	}
 
 	if (aux->HIzq!=NULL && aux->HDer!=NULL)
 	{
-		std::cout<<aux<<std::endl;
+		std::cout<<aux->Dato<<std::endl;
 		//std::cout<<aux->HIzq<<"		"<<aux->HDer<<std::endl;
 	}
 
